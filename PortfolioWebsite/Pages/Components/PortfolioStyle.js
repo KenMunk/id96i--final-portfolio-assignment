@@ -6,9 +6,10 @@ const topBarHeight = 50;
 
 const colorPrimary = '#ffffff';
 const colorSecondary = '#dddffd';
-const colorTertiary = '#8887b9';
+const colorTertiary = '#bbbffb';
+const accentPrimary = '#dddddd';
 const colorSecondaryHover = '#aaacca';
-const colorSecondaryActive = '#aaaffa';
+const colorSecondaryActive = '#aaafff';
 const TitleColor = '#2222dd';
 const H1Color = '#4444dd';
 const H2Color = '#6666dd';
@@ -42,7 +43,6 @@ const PortfolioStyle = StyleSheet.create({
 	
 	contentSpace: {
 		flexDirection: 'Column',
-		width: maxWidth-indexWidth,
 		
 		//content alignment
 		justifyContent: 'center',
@@ -70,7 +70,7 @@ const PortfolioStyle = StyleSheet.create({
 		//content alignment
 		alignItems: 'flex-start',
 		justifyContent: 'flex-start',
-		backgroundColor: colorSecondary,
+		backgroundColor: accentPrimary,
 	},
 	
 	indexSection: {
@@ -85,10 +85,11 @@ const PortfolioStyle = StyleSheet.create({
 		
 		alignItems: 'flex-start',
 		justifyContent: 'center',
+		paddingVertical: 5,
 		
 	},
 	
-	indexSectionHead: {
+	indexItemFirst: {
 		flexDirection: 'Column',
 		
 		borderTopRightRadius: standardRadius,
@@ -107,7 +108,7 @@ const PortfolioStyle = StyleSheet.create({
 		
 	},
 	
-	indexItemPage: {
+	indexItemSecond: {
 		flexDirection: 'Column',
 		
 		borderTopRightRadius: standardRadius,
@@ -137,9 +138,14 @@ const PortfolioStyle = StyleSheet.create({
 		backgroundColor: colorSecondaryHover,
 	},
 	
+	titleFont: {
+		color: TitleColor,
+		fontSize: 32,
+	},
+	
 	indexFont: {
 		color: H1Color,
-		fontSize: 20,
+		fontSize: 16,
 	},
 	
 	

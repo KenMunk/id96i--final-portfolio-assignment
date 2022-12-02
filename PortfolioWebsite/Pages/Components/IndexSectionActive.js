@@ -4,15 +4,16 @@ import { useNavigation } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import PortfolioStyle from './PortfolioStyle';
 
-export default function IndexSection(props) {
+export default function IndexSectionActive(props) {
 	
 	const navigation = useNavigation();
 	return(
 		<View 
-			style={[PortfolioStyle.indexSection, PortfolioStyle.indexItemInactive]}
+			style={[PortfolioStyle.indexSection, PortfolioStyle.indexItemActive]}
 			
 			onClick={() => {
 					navigation.navigate(props.destination);
+					//Next action;
 				}
 			}
 		>
