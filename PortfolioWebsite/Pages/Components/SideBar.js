@@ -42,9 +42,6 @@ export default function SideBar(){
 				<IndexSecond>
 					IT Resume
 				</IndexSecond>
-				<IndexSecond>
-					Game Dev Resume
-				</IndexSecond>
 			</IndexSection>
 			<IndexSection destination="Reflections and Development">
 				<IndexFirst>

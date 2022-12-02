@@ -153,10 +153,11 @@ const PortfolioStyle = StyleSheet.create({
 	contentText: {
 		color: TextColor,
 		fontSize: 14,
-		padding: 10,
+		padding: 15,
 	},
 	
 	pageTitleBox: {
+		width: '100%',
 		borderBottomWidth: 5,
 		borderColor: accentPrimary,
 		borderBottomRightRadius: standardRadius,
@@ -170,6 +171,16 @@ const PortfolioStyle = StyleSheet.create({
 		borderBottomRightRadius: standardRadius,
 		color: H1Color,
 		fontSize: 36,
+	},
+	
+	docWindow: {
+		width: '80%',
+		height: 900,
+		
+		borderTopRightRadius: standardRadius,
+		borderBottomRightRadius: standardRadius,
+		borderTopWidth: 5,
+		borderBottomWidth: 5,
 	}
 	
 });
