@@ -28,9 +28,11 @@ const PortfolioStyle = StyleSheet.create({
 		flex: 1,
 		flexDirection: 'row',
 		width: '100%',
+		height: '100%',
 		
 		//content alignment
 		alignItems: 'flex-start',
+		backgroundColor: accentPrimary,
 		
 	},
 	

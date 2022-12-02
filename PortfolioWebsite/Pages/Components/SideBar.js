@@ -15,12 +15,7 @@ export default function SideBar(){
 		<SideIndex>
 			<Text style={PortfolioStyle.titleFont}>
 			Ken Munk - Portfolio
-			</Text>	
-			<IndexSection destination="Index">
-				<IndexFirst>
-					Index
-				</IndexFirst>
-			</IndexSection>
+			</Text>
 			<IndexSection destination="Executive Summary">
 				<IndexFirst>
 					Executive Summary

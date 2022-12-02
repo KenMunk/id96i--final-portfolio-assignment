@@ -13,6 +13,7 @@ export default function IndexSection(props) {
 			
 			onClick={() => {
 					navigation.navigate(props.destination);
+					//Next action;
 				}
 			}
 		>
