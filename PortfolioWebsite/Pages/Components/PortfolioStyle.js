@@ -142,25 +142,35 @@ const PortfolioStyle = StyleSheet.create({
 	
 	titleFont: {
 		color: TitleColor,
-		fontSize: 32,
+		fontSize: 36,
 	},
 	
 	indexFont: {
 		color: H1Color,
-		fontSize: 16,
+		fontSize: 18,
 	},
 	
-	
-	
-	//main content items go in content column as content page/tab
-	
-	mainContentItem: {
-		flexDirection: 'column',
-		width: '100%',
-		alignItems: 'flex-start',
-		justifyContent: 'flex-start',
-		backgroundColor: colorPrimary,
+	contentText: {
+		color: TextColor,
+		fontSize: 14,
+		padding: 10,
 	},
+	
+	pageTitleBox: {
+		borderBottomWidth: 5,
+		borderColor: accentPrimary,
+		borderBottomRightRadius: standardRadius,
+		color: TitleColor,
+		fontSize: 60,
+	},
+	
+	textHeading: {
+		borderBottomWidth: 5,
+		borderColor: accentPrimary,
+		borderBottomRightRadius: standardRadius,
+		color: H1Color,
+		fontSize: 36,
+	}
 	
 });
 

@@ -6,8 +6,7 @@ import BaseContent from './Components/BaseContent';
 export default function Integration(){
 	
 	return(
-		<BaseContent>
-			<Text> Integration Reflection </Text>
+		<BaseContent title="Integration Reflection">
 		</BaseContent>
 	);
 	

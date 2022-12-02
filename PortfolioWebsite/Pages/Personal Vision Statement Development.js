@@ -6,8 +6,7 @@ import BaseContent from './Components/BaseContent';
 export default function Vision(){
 	
 	return(
-		<BaseContent>
-			<Text> Personal Vision Statement Development </Text>
+		<BaseContent title="Personal Vision Statement Development">
 		</BaseContent>
 	);
 	

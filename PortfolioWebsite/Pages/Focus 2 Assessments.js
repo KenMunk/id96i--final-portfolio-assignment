@@ -6,8 +6,7 @@ import BaseContent from './Components/BaseContent';
 export default function Focus2(){
 	
 	return(
-		<BaseContent>
-			<Text> Focus 2 Assessments </Text>
+		<BaseContent title="Focus 2 Assessments">
 		</BaseContent>
 	);
 	

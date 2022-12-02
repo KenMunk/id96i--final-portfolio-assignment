@@ -6,8 +6,7 @@ import BaseContent from './Components/BaseContent';
 export default function Reflections(){
 	
 	return(
-		<BaseContent>
-			<Text> Reflections and Development</Text>
+		<BaseContent title="Reflections & Development">
 		</BaseContent>
 	);
 	

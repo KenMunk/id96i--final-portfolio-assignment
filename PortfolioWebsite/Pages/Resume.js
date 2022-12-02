@@ -6,8 +6,7 @@ import BaseContent from './Components/BaseContent';
 export default function Resume(){
 	
 	return(
-		<BaseContent>
-			<Text> Resume </Text>
+		<BaseContent title="Resume">
 		</BaseContent>
 	);
 	
