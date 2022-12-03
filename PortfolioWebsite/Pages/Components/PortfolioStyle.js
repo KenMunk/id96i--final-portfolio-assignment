@@ -20,18 +20,17 @@ const standardRadius = 20;
 //Can't use this here
 //const maxWidth = useWindowDimensions().width;
 const maxWidth = 1920;
-const indexWidth = 300;
+const indexWidth = 250;
 
 const PortfolioStyle = StyleSheet.create({
 	
 	baseview: {
 		flex: 1,
 		flexDirection: 'row',
-		width: '100%',
-		height: '100%',
+		//width: '100%',
 		
 		//content alignment
-		alignItems: 'flex-start',
+		//alignItems: 'flex-start',
 		backgroundColor: accentPrimary,
 		
 	},
@@ -147,7 +146,7 @@ const PortfolioStyle = StyleSheet.create({
 	
 	indexFont: {
 		color: H1Color,
-		fontSize: 18,
+		fontSize: 14,
 	},
 	
 	contentText: {

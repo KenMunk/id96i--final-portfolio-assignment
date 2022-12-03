@@ -6,7 +6,7 @@ import PortfolioStyle from './PortfolioStyle';
 export default function ContentColumn(props) {
 	const {height, width} = useWindowDimensions();
 	return(
-		<View style={[PortfolioStyle.contentSpace,{width:width-320, height:'100%'}]}>
+		<View style={[PortfolioStyle.contentSpace,{width:width-250, height:'100%'}]}>
 			<View style={PortfolioStyle.contentColumn}>
 				{props.children}
 			</View>
