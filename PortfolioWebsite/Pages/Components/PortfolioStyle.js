@@ -180,6 +180,14 @@ const PortfolioStyle = StyleSheet.create({
 		borderBottomRightRadius: standardRadius,
 		borderTopWidth: 5,
 		borderBottomWidth: 5,
+	},
+	
+	docBorder: {
+		borderWidth: 2, 
+		borderRadius: 20,
+		borderColor: accentPrimary,
+		borderBottomWidth: 5,
+		
 	}
 	
 });

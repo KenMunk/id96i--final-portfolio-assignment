@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { View, useWindowDimensions, Text } from 'react-native';
-import {PortfolioStyle} from './PortfolioStyle';
+import PortfolioStyle from './PortfolioStyle';
 
 //import Pdf from 'react-native-pdf';
 //import {WebView} from 'react-native-webview';
@@ -12,7 +12,7 @@ export default function DocView(props){
 	
 	
 	return(
-		<View style={{width: (width-buffer), height: ((width-buffer)*1.294), borderWidth: 2, borderRadius: 20}}>
+		<View style={[PortfolioStyle.docBorder, {width: (width-buffer), height: ((width-buffer)*1.294),}]}>
 			{props.children}
 		</View>
 	);

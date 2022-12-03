@@ -1,10 +1,10 @@
 import * as React from 'react';
 import { View, useWindowDimensions, Text, Image } from 'react-native';
 
+import DocView from './Components/DocView';
 import BaseContent from './Components/BaseContent';
 import Heading from './Components/Heading';
 import TextBlock from './Components/TextBlock';
-import DocView from './Components/DocView';
 
 //import {WebView} from 'react-native-webview';//FAIL
 //import Iframe from 'react-iframe';//FAIL

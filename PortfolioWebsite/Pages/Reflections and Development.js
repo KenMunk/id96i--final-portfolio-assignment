@@ -1,52 +1,62 @@
 import * as React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { View, useWindowDimensions, Text, Image } from 'react-native';
 
+import DocView from './Components/DocView';
 import BaseContent from './Components/BaseContent';
 import Heading from './Components/Heading';
 import TextBlock from './Components/TextBlock';
 
+import Reflection0p1 from './PageContent/Reflections/reflection0p1';
+
 export default function Reflections(){
+	const {height, width} = useWindowDimensions();
+	const paperRatio = 1.294;
+	const buffer = (70 * (width/700)) + 250;
 	
 	return(
 		<BaseContent title="Reflections & Development">
 			<Heading>
-				Lesson 1
+				Reflection 0 - Future You Envision
+			</Heading>
+			
+			<DocView>
+				<Reflection0p1 width={(width-buffer)} height={((width-buffer)*1.294)}/>
+			</DocView>
+			
+			<Heading>
+				Lesson 1 - Choice
 			</Heading>
 			
 			<Heading>
-				Lesson 2
+				Lesson 2 - Recognizing Opprotunities
 			</Heading>
 			
 			<Heading>
-				Lesson 3
+				Lesson 3 - Ideas to Action
 			</Heading>
 			
 			<Heading>
-				Lesson 4
+				Midterm - Reflection 0 to 3
 			</Heading>
 			
 			<Heading>
-				Midterm
+				Lesson 4 - Pursuit of Knowledge
 			</Heading>
 			
 			<Heading>
-				Lesson 5
+				Lesson 5 - Creating Wealth
 			</Heading>
 			
 			<Heading>
-				Lesson 6
+				Lesson 6 - Brand
 			</Heading>
 			
 			<Heading>
-				Lesson 7
+				Lesson 7 - Community
 			</Heading>
 			
 			<Heading>
-				Lesson 8
-			</Heading>
-			
-			<Heading>
-				Lesson 9
+				Lesson 8 - Persistance
 			</Heading>
 		</BaseContent>
 	);
