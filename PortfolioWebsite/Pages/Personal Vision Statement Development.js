@@ -25,7 +25,7 @@ export default function Vision(){
 	const buffer = (70 * (width/700)) + 250;
 	const referencePage = 1200;
 	const scaleValue = (width/referencePage)<1 ? (width/referencePage) : 1;
-	const pageWidth = 800;
+	const pageWidth = 850;
 	console.log(scaleValue);
 	
 	return(

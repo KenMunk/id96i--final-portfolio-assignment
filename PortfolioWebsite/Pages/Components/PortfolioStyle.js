@@ -8,6 +8,7 @@ const colorPrimary = '#ffffff';
 const colorSecondary = '#dddffd';
 const colorTertiary = '#bbbffb';
 const accentPrimary = '#dddddd';
+const accentSecondary = '#777777';
 const colorSecondaryHover = '#aaacca';
 const colorSecondaryActive = '#aaafff';
 const TitleColor = '#2222dd';
@@ -145,7 +146,8 @@ const PortfolioStyle = StyleSheet.create({
 	},
 	
 	indexFont: {
-		color: H1Color,
+		color: accentSecondary,
+		fontWeight: 'bold',
 		fontSize: 14,
 	},
 	
@@ -170,6 +172,12 @@ const PortfolioStyle = StyleSheet.create({
 		borderBottomRightRadius: standardRadius,
 		color: H1Color,
 		fontSize: 36,
+	},
+	
+	textHeadingView: {
+		paddingBottom: 10,
+		paddingTop: 20,
+		justifyContent: 'center',
 	},
 	
 	docWindow: {

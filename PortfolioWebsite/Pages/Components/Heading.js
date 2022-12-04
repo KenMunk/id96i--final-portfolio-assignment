@@ -5,10 +5,11 @@ import PortfolioStyle from './PortfolioStyle';
 export default function Heading(props) {
 	
 	return(
-		
-		<Text style={[PortfolioStyle.textHeading,]}>
-			{props.children}
-		</Text>
+		<View style={PortfolioStyle.textHeadingView}>
+			<Text style={[PortfolioStyle.textHeading,]}>
+				{props.children}
+			</Text>
+		</View>
 	);
 	
 }
