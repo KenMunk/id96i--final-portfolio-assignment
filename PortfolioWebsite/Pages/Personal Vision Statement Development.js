@@ -23,17 +23,30 @@ export default function Vision(){
 	const {height, width} = useWindowDimensions();
 	const paperRatio = 1.294;
 	const buffer = (70 * (width/700)) + 250;
+	const referencePage = 1200;
+	const scaleValue = (width/referencePage)<1 ? (width/referencePage) : 1;
+	const pageWidth = 800;
+	console.log(scaleValue);
 	
 	return(
 		<BaseContent title="Personal Vision Statement Development">
 			<DocView>
-				<Page1 width={(width-buffer)} height={((width-buffer)*1.294)}/>
+				<Page1 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
 			</DocView>
 			<DocView>
-				<Page2 width={(width-buffer)} height={((width-buffer)*1.294)}/>
+				<Page2 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
 			</DocView>
 			<DocView>
-				<Page3 width={(width-buffer)} height={((width-buffer)*1.294)}/>
+				<Page3 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
 			</DocView>
 		</BaseContent>
 	);

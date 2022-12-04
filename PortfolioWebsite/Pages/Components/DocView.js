@@ -6,13 +6,10 @@ import PortfolioStyle from './PortfolioStyle';
 //import {WebView} from 'react-native-webview';
 
 export default function DocView(props){
-	const {height, width} = useWindowDimensions();
-	const paperRatio = 1.294;
-	const buffer = (70 * (width/700))+250;
 	
 	
 	return(
-		<View style={[PortfolioStyle.docBorder, {width: (width-buffer), height: ((width-buffer)*1.294),}]}>
+		<View style={[PortfolioStyle.docBorder]}>
 			{props.children}
 		</View>
 	);
