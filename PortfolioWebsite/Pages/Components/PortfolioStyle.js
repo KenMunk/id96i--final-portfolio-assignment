@@ -180,17 +180,9 @@ const PortfolioStyle = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	
-	docWindow: {
-		width: '80%',
-		height: 900,
-		
-		borderTopRightRadius: standardRadius,
-		borderBottomRightRadius: standardRadius,
-		borderTopWidth: 5,
-		borderBottomWidth: 5,
-	},
-	
 	docBorder: {
+		flexDirection: 'row',
+		flexWrap: 'wrap',
 		borderWidth: 2, 
 		borderRadius: 20,
 		borderColor: accentPrimary,
