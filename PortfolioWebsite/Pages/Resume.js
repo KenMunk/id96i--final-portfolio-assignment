@@ -6,11 +6,20 @@ import BaseContent from './Components/BaseContent';
 import Heading from './Components/Heading';
 import TextBlock from './Components/TextBlock';
 
-import GeneralResume1 from './PageContent/Resume/GeneralResume1';
-import GeneralResume2 from './PageContent/Resume/GeneralResume2';
-import GeneralResume3 from './PageContent/Resume/GeneralResume3';
-import GeneralResume4 from './PageContent/Resume/GeneralResume4';
-import GeneralResume5 from './PageContent/Resume/GeneralResume5';
+import GeneralResume1 from './PageContent/Resume/BaseResume1';
+import GeneralResume2 from './PageContent/Resume/BaseResume2';
+import GeneralResume3 from './PageContent/Resume/BaseResume3';
+import GeneralResume4 from './PageContent/Resume/BaseResume4';
+
+import CSResume1 from './PageContent/Resume/CSResume1';
+import CSResume2 from './PageContent/Resume/CSResume2';
+import CSResume3 from './PageContent/Resume/CSResume3';
+import CSResume4 from './PageContent/Resume/CSResume4';
+
+import ITResume1 from './PageContent/Resume/ITResume1';
+import ITResume2 from './PageContent/Resume/ITResume2';
+import ITResume3 from './PageContent/Resume/ITResume3';
+import ITResume4 from './PageContent/Resume/ITResume4';
 
 export default function Resume(){
 	const {height, width} = useWindowDimensions();
@@ -27,7 +36,7 @@ export default function Resume(){
 				The Initial Resume
 			</Heading>
 			<TextBlock>
-				Brief intro and then resume goes here
+				This resume is a foundation resume in my arsenal.  Depending on what I am attempting to get into, different alterations will be made.
 			</TextBlock>
 			<DocView>
 				<GeneralResume1 
@@ -53,26 +62,68 @@ export default function Resume(){
 					height={((pageWidth*scaleValue)*1.294)}
 				/>
 			</DocView>
+			
+			<Heading>
+				Tailored For Software Engineering
+			</Heading>
+			<TextBlock>
+				This resume was designed with more of a focus of appealing to the needs of the tech space of today.
+			</TextBlock>
 			<DocView>
-				<GeneralResume5 
+				<CSResume1 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<CSResume2 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<CSResume3 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<CSResume4 
 					width={(pageWidth*scaleValue)} 
 					height={((pageWidth*scaleValue)*1.294)}
 				/>
 			</DocView>
 			
 			<Heading>
-				Tailored For Software Engineering
-			</Heading>
-			<TextBlock>
-				Brief intro and then resume goes here
-			</TextBlock>
-			
-			<Heading>
 				Tailored For IT
 			</Heading>
 			<TextBlock>
-				Brief intro and then resume goes here
+				This resume was designed with more of a focus on continuing to move forward in the IT space.
 			</TextBlock>
+			<DocView>
+				<ITResume1 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<ITResume2 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<ITResume3 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
+			<DocView>
+				<ITResume4 
+					width={(pageWidth*scaleValue)} 
+					height={((pageWidth*scaleValue)*1.294)}
+				/>
+			</DocView>
 		</BaseContent>
 	);
 	
