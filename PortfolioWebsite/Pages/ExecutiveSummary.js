@@ -11,6 +11,7 @@ export default function ExecutiveSummary(){
 	
 	return(
 		<BaseContent title="Executive Summary">
+			<Text> Content Change </Text>
 		</BaseContent>
 	);
 	
