@@ -79,7 +79,7 @@ export default function Reflections(){
 			</DocView>
 			
 			<Heading>
-				Lesson 2 - Recognizing Opprotunities
+				Lesson 2 - Recognizing Opportunities
 			</Heading>
 			
 			<DocView>
