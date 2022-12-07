@@ -37,7 +37,7 @@ export default function Focus2(){
 	return(
 		<BaseContent title="Focus 2 Assessments">
 			<DocView>
-				<View style={ width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{ width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 500, height: 856,}}
 						source={require(""+resultLeisure)}
