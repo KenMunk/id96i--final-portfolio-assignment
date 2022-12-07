@@ -37,7 +37,7 @@ export default function Focus2(){
 	return(
 		<BaseContent title="Focus 2 Assessments">
 			<DocView>
-				<View style={{ width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{transform: [{scale: scaleValue}], width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 500, height: 856,}}
 						source={require(""+resultLeisure)}
@@ -45,7 +45,7 @@ export default function Focus2(){
 				</View>
 			</DocView>
 			<DocView>
-				<View style={{width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{transform: [{scale: scaleValue}], width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 1074*0.5, height: 712*0.5,}}
 						source={require(""+resultPersonality)}
@@ -53,7 +53,7 @@ export default function Focus2(){
 				</View>
 			</DocView>
 			<DocView>
-				<View style={{ width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{transform: [{scale: scaleValue}], width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 1054*0.5, height: 487*0.5,}}
 						source={require(""+resultSkills)}
@@ -61,7 +61,7 @@ export default function Focus2(){
 				</View>
 			</DocView>
 			<DocView>
-				<View style={{ width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{transform: [{scale: scaleValue}], width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 1062*0.5, height: 481*0.5,}}
 						source={require(""+resultValues)}
@@ -69,7 +69,7 @@ export default function Focus2(){
 				</View>
 			</DocView>
 			<DocView>
-				<View style={{ width:'100%', padding: 5, alignItems: 'center' }}>
+				<View style={{transform: [{scale: scaleValue}], width:'100%', padding: 5, alignItems: 'center' }}>
 					<Image
 						style={{width: 1071*0.5, height: 1030*0.5,}}
 						source={require(""+resultWorkInterest)}
