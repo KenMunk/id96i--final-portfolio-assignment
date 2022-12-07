@@ -163,7 +163,6 @@ const PortfolioStyle = StyleSheet.create({
 		borderColor: accentPrimary,
 		borderBottomRightRadius: standardRadius,
 		color: TitleColor,
-		fontSize: 60,
 	},
 	
 	textHeading: {
