@@ -17,7 +17,7 @@ export default function DocView(props){
 	
 	
 	return(
-		<View style={[PortfolioStyle.docBorder, {width: scaleWidth, height: scaleWidth*paperRatio}]}>
+		<View style={[PortfolioStyle.docBorder, {width: scaleWidth, height: 'auto'}]}>
 			{props.children}
 		</View>
 	);
